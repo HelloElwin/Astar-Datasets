@@ -15,4 +15,4 @@ Robot detection dataset by HKU Hercules
 | 机器人      | RobotBody   |
 | 装甲板      | RobotArmor  |
 
-RobotBody与RobotArmor都被划为了Robot的子标签以便后期添加障碍物等标签。
+`RobotBody`与`RobotArmor`都被划为了`Robot`的子标签以便后期添加障碍物等标签。
