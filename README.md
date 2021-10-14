@@ -1,4 +1,4 @@
-# HerculesDataset
+# HerkulesDataset
 
 Robot detection dataset by HKU Hercules
 
