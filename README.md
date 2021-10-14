@@ -6,6 +6,8 @@ Robot detection dataset by HKU Hercules
 
 [raw2coco.py](https://github.com/HelloElwin/HerculesDataset/blob/main/raw2coco.py)
 
+更完善的版本在`coco_test`分支中。
+
 ### 关于标签
 
 将原有的中文标签转成了英文，对照如下表。
