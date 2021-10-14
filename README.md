@@ -4,7 +4,7 @@ Robot detection dataset by HKU Hercules
 
 ## Convert the original format to coco format
 
-[raw2coco.py](https://github.com/HelloElwin/HerkulesDataset/blob/coco_test/raw2coco.py)
+[raw2coco.py](https://github.com/HelloElwin/HerkulesDataset/blob/main/raw2coco.py)
 
 ### 文件结构：
 ```
