@@ -1,6 +1,5 @@
 #@HelloElwin-20211014
 import json
-import rename
 import os, sys
 
 label_dic = {'机器人': 'RobotBody', '装甲板': 'RobotArmor'}
@@ -64,7 +63,13 @@ for imgid in range(int(len(data_list) / 2)): #加入每张图片
         annotation['id'] = anno_cnt
         annotation['image id'] = imgid
         annotation['category_id'] = category_dic[label['name']]
-        annotation['bbox'] = [label['x1'], label['y1'], label['x2'], label['y2']]
+        annotation['bbox'] = [
+            label['x1'], 
+            label['y1'], 
+            label['x2'] - label['x1'], 
+            label['y2'] - label['y1']
+        ]
+        coco_data['annotations'].append(annotation)
         anno_cnt += 1
 
 #    print(coco_data)
