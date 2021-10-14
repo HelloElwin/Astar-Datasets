@@ -6,6 +6,21 @@ Robot detection dataset by HKU Hercules
 
 [raw2coco.py](https://github.com/HelloElwin/HerculesDataset/blob/main/raw2coco.py)
 
+### 文件结构：
+```
+HerDataset1.0/
+    train/
+        <filename0>.png
+        <filename1>.png
+        ...
+    train.json
+	val/
+        <filename0>.png
+        <filename1>.png
+        ...
+	val.json
+```
+
 ### 关于标签
 
 将原有的中文标签转成了英文，对照如下表。

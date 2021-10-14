@@ -70,10 +70,10 @@ def Generate(data_path, data_type):
             coco_data['annotations'].append(annotation)
             anno_cnt += 1
 
-    with open(f'./{data_type}.json', 'w', encoding='utf-8') as f:
+    with open(f'./HerDataset1.0/{data_type}.json', 'w', encoding='utf-8') as f:
         json.dump(coco_data, f)
 
-    print(f"Converted to COCO format and saved to {data_path + 'labels.json'}")
+    print(f"Converted {int(len(data_list) / 2)} sample to COCO format and saved to './HerDataset1.0/{data_type}.json'")
 
 
 train_path = './HerDataset1.0/train/'
