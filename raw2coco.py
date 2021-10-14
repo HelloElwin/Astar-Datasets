@@ -69,6 +69,7 @@ for imgid in range(int(len(data_list) / 2)): #加入每张图片
             label['x2'] - label['x1'], 
             label['y2'] - label['y1']
         ]
+        coco_data['annotations'].append(annotation)
         anno_cnt += 1
 
 #    print(coco_data)
