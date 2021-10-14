@@ -14,11 +14,11 @@ HerDataset1.0/
         <filename1>.png
         ...
     train.json
-	val/
+    val/
         <filename0>.png
         <filename1>.png
         ...
-	val.json
+    val.json
 ```
 
 ### 关于标签
