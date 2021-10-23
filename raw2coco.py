@@ -50,7 +50,7 @@ def Generate(data_path, data_type):
         image = {}
         image['id'] = imgid
         image['license'] = 1
-        image['file_name'] = data_path + img
+        image['file_name'] = img
         image['height'] = img_h
         image['width'] = img_w
 
@@ -59,6 +59,7 @@ def Generate(data_path, data_type):
         for label in json_data['labels']: #加入每个bbox
             annotation = {}
             annotation['iscrowd'] = 0
+            annotation['area'] = (label['x2'] - label['x1']) * (label['y2'] - label['y1'])
             annotation['id'] = anno_cnt
             annotation['image_id'] = imgid
             annotation['category_id'] = category_dic[label['name']]
