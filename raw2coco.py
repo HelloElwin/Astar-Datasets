@@ -58,6 +58,7 @@ def Generate(data_path, data_type):
 
         for label in json_data['labels']: #加入每个bbox
             annotation = {}
+            annotation['iscrowd'] = 0
             annotation['id'] = anno_cnt
             annotation['image_id'] = imgid
             annotation['category_id'] = category_dic[label['name']]
