@@ -1,6 +1,6 @@
 # HerkulesDataset
 
-Robot detection dataset by HKU Hercules
+These are some robot detection datasets by HKU Hercules!
 
 ## For Version 2
 
