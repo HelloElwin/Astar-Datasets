@@ -4,7 +4,7 @@ These are some robot detection datasets by HKU Hercules!
 
 ## For Version 2
 
-*数据标注员: Kelios, Elwin*
+*数据标注员: Kio(a.k.a. Kelios, a.k.a Helious), Elwin*
 
 ### 文件结构：
 ```
