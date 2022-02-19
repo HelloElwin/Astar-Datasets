@@ -1,0 +1,5 @@
+train: ../NewData/train/images
+val: ../NewData/valid/images
+
+nc: 11
+names: ['armor_1', 'armor_2', 'back_1', 'back_2', 'front_1', 'front_2', 'left_1', 'left_2', 'light', 'right_1', 'right_2']

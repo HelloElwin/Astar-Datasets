@@ -78,8 +78,8 @@ def Generate(data_path, data_type):
     print(f"Converted {int(len(data_list) / 2)} sample to COCO format and saved to './HerDataset1.0/{data_type}.json'")
 
 
-train_path = './HerDataset1.0/train/'
-val_path = './HerDataset1.0/val/'
+train_path = './HerData1/train/'
+val_path = './HerData1/val/'
 
 Generate(train_path, 'train')
 Generate(val_path, 'val')

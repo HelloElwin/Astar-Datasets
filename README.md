@@ -2,11 +2,20 @@
 
 Robot detection dataset by HKU Hercules
 
-## For 2.0
+## For Version 2
 
-To be continued...
+*数据标注员: Kelios, Elwin*
 
-## For 1.0
+### 文件结构：
+```
+HerData2/
+	phase1/
+	phase2/
+```
+
+## For Version 1
+
+*数据标注员: Cogito*
 
 ### Convert the original format to coco format
 
@@ -14,7 +23,7 @@ To be continued...
 
 ### 文件结构：
 ```
-HerDataset1.0/
+HerData1/
     train/
         <filename0>.png
         <filename1>.png
