@@ -1,6 +1,6 @@
-# HerkulesDataset
+# AstarDataset
 
-These are some robot detection datasets by HKU Hercules!
+These are some robot detection datasets by HKU Astar!
 
 ## For Version 2
 
@@ -19,7 +19,7 @@ HerData2/
 
 ### Convert the original format to coco format
 
-[raw2coco.py](https://github.com/HelloElwin/HerkulesDataset/blob/main/raw2coco.py)
+[raw2coco.py](./raw2coco.py)
 
 ### 文件结构：
 ```
